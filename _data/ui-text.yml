@@ -1,0 +1,117 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  skip_links                 : "Skip links"
+  skip_primary_nav           : "Skip to primary navigation"
+  skip_content               : "Skip to content"
+  skip_footer                : "Skip to footer"
+  page                       : "Page"
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Toggle menu"
+  search_label               : "Toggle search"
+  toc_label                  : "On this page"
+  ext_link_label             : "Direct link"
+  less_than                  : "less than"
+  minute_read                : "minute read"
+  share_on_label             : "Share on"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categories:"
+  date_label                 : "Updated:"
+  comments_label             : "Leave a comment"
+  comments_title             : "Comments"
+  more_label                 : "Learn more"
+  related_label              : "You may also enjoy"
+  follow_label               : "Follow:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  search_label_text          : "Enter your search term..."
+  search_placeholder_text    : "Enter your search term..."
+  search_algolia_no_results  : "No results"
+  results_found              : "Result(s) found"
+  back_to_top                : "Back to top"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Japanese
+# --------
+ja: &DEFAULT_JA
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "ページ"
+  pagination_previous        : "前へ"
+  pagination_next            : "次へ"
+  breadcrumb_home_label      : "ホーム"
+  breadcrumb_separator       : "/"
+  menu_label                 : "メニュー"
+  search_label               :
+  toc_label                  : "目次"
+  ext_link_label             : "リンク"
+  less_than                  :
+  minute_read                :
+  share_on_label             : "共有"
+  meta_label                 :
+  tags_label                 : "タグ:"
+  categories_label           : "カテゴリー:"
+  date_label                 : "更新日時:"
+  comments_label             : "コメントする"
+  comments_title             : "コメント"
+  more_label                 : "さらに詳しく"
+  related_label              : "関連記事"
+  follow_label               : "フォロー"
+  feed_label                 :
+  powered_by                 :
+  website_label              :
+  email_label                :
+  recent_posts               : "最近の投稿"
+  undefined_wpm              : "パラメータ words_per_minute が _config.yml で定義されていません"
+  comment_form_info          : "メールアドレスが公開されることはありません。次の印のある項目は必ず入力してください:"
+  comment_form_comment_label : "コメント"
+  comment_form_md_info       : "Markdown を使用できます"
+  comment_form_name_label    : "名前"
+  comment_form_email_label   : "メールアドレス"
+  comment_form_website_label : "URL (任意)"
+  comment_btn_submit         : "コメントを送信する"
+  comment_btn_submitted      : "送信しました"
+  comment_success_msg        : "コメントありがとうございます！　コメントは承認されるとページに表示されます。"
+  comment_error_msg          : "送信エラーです。必須項目がすべて入力されていることを確認して再送信してください。"
+  loading_label              : "読み込み中..."
+  search_label_text          :
+  search_placeholder_text    : "検索キーワードを入力してください..."
+  search_algolia_no_results  :
+  results_found              : "件"
+  back_to_top                : "先頭に戻る"
+ja-JP:
+  <<: *DEFAULT_JA
+
+# Another locale
+# --------------
+#
