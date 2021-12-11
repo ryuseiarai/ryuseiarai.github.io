@@ -9,7 +9,7 @@ layout: splash
 ---
 
 <br><br>
-<img src="/assets/images/profile.jpg" height="auto" width="200" style="border-radius:50%">{: .align-left}
+<img src="../assets/images/profile.jpg" height="auto" width="200" style="border-radius:50%">{: .align-left}
 Fintechベンチャー勤務のクラウドエンジニア  
 Azureがメインで、たまにAWS、GCP。
 

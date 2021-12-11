@@ -16,7 +16,7 @@ toc_icon: "cog"
 # ネットワーク制限をかけたストレージアカウントにアクセスする方法
 
 
-<img src="/assets/images/icon/azure/Storage/10086-icon-service-Storage-Accounts.svg" width="100">
+<img src="../../assets/images/icon/azure/Storage/10086-icon-service-Storage-Accounts.svg" width="100">
 
 ストレージアカウントでパブリックを許可していると誰でもアクセスすることが可能になってしまいます。
 
@@ -29,11 +29,11 @@ toc_icon: "cog"
 
 [ストレージアカウント]-[ネットワーク]からファイアウォール設定画面に遷移します。
 
-![image01](/assets/images/2021/09-01.png)
+![image01](../../assets/images/2021/09-01.png)
 
 ### ファイアウォール
 
-![image02](/assets/images/2021/09-02.png)
+![image02](../../assets/images/2021/09-02.png)
 
 こちらはオーソドックスなファイアウォール設定です。  
 許可したいIPを設定して保存することでアクセス可能となるホワイトリスト形式のファイアウォールです。
@@ -43,7 +43,7 @@ toc_icon: "cog"
 
 ### 仮装ネットワーク
 
-![image03](/assets/images/2021/09-03.png)
+![image03](../../assets/images/2021/09-03.png)
 
 こちらはVNET内のサービスエンドポイントを利用して接続するための設定です。
 Azure Virtual MachineなどのAzureのリソースはサブネットに属しており、そのサブネットから**サービスエンドポイント**を用い、Azure内のネットワークでストレージアカウントにアクセスできます。
@@ -53,7 +53,7 @@ Azure Virtual MachineなどのAzureのリソースはサブネットに属して
 
 ### システム割り当てマネージド ID
 
-![image04](/assets/images/2021/09-04.png)
+![image04](../../assets/images/2021/09-04.png)
 
 以下、サービスのシステム割り当てマネージドIDを利用してアクセスすることができます。  
 ここでアクセス許可したいマネージドIDを追加し、マネージドIDに対して必要なアクセス権限を付与することでアクセス可能になります。
@@ -88,7 +88,7 @@ Azure Virtual MachineなどのAzureのリソースはサブネットに属して
 
 ### 例外
 
-![image05](/assets/images/2021/09-05.png)
+![image05](../../assets/images/2021/09-05.png)
 
 ストレージアカウントと**同じサブスクリプション**にある下記リソースは「信頼されたサービスの一覧にある Azure サービスがこのストレージ アカウントにアクセスすることを許可します。」にチェックをいれることでアクセス可能となります。
 
@@ -117,8 +117,8 @@ VNET上にプライベートエンドポイントを作成し、プライベー�
 
 ## App ServiceやFunctionsでネットワーク制限されている同一リージョンのストレージアカウントにアクセスする方法
 
-<img src="/assets/images/icon/azure/App Services/10035-icon-service-App-Services.svg" width="100"> 
-<img src="/assets/images/icon/azure/Functions/10029-icon-service-Function-Apps.svg" width="100">
+<img src="../../assets/images/icon/azure/App Services/10035-icon-service-App-Services.svg" width="100"> 
+<img src="../../assets/images/icon/azure/Functions/10029-icon-service-Function-Apps.svg" width="100">
 
 デフォルトでは**無理です。**  
 これがけっこうハマるポイントです。
