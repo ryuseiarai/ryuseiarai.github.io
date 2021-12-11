@@ -1,6 +1,6 @@
 ---
 title: "タグ別投稿"
-permalink: /blog/tags/
+permalink: /tags/
 layout: tags
 author_profile: true
 ---
